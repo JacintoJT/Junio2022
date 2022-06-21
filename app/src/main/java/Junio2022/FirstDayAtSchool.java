@@ -1,10 +1,10 @@
 /**
- * Clase a probar en el código ejemplo para el control de junio de 2022
+ * Clase a probar en el cï¿½digo ejemplo para el control de junio de 2022
  */
-package muit.fs.junio22;
+package Junio2022;
 
 /**
- * @author Isabel Román
+ * @author Isabel Romï¿½n
  *
  */
 
@@ -13,6 +13,8 @@ import java.util.Set;
 
 public class FirstDayAtSchool {
 	private HashMap<String, Integer> schoolbag = null;
+	//private int things = 0;
+	//private int number = 0;
 
 	public FirstDayAtSchool() {
 		this.schoolbag = new HashMap<String, Integer>();
@@ -26,11 +28,11 @@ public class FirstDayAtSchool {
 	}
 
 	public void addThings(String thingName, int number) {
-		int things = 0;
+		int things = number;
 		if (schoolbag.containsKey(thingName)) {
 			things = things + schoolbag.get(thingName).intValue();
 		}
-		schoolbag.put(thingName, Integer.valueOf(things));
+		schoolbag.put(thingName, things);
 	}
 
 	public int getNumberOf(String thingName) {
