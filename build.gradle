@@ -98,7 +98,7 @@ publishing {
             //las propiedades gpr.user y gpr.key están configuradas en gradle.properties en el raiz del proyecto, y se añade a .gitignore para que no se suban
             //O bien configuro las variables de entorno GITHUB_LOGIN y GITHUB_PACKAGES
                 username = "JacintoJT"
-            	password = "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"
+            	password = "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"
                 //username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_LOGIN")
                 //password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_PACKAGES")
                 }
